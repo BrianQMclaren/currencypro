@@ -98,6 +98,6 @@ Features still to be implemented:
 ## Getting Started
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
