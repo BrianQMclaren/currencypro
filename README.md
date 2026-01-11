@@ -91,6 +91,7 @@ Features still to be implemented:
 2. Convert the project to **TypeScript**
 3. Add loading and error states
 4. Improve mobile responsiveness
+5. Finalize and deploy
 
 ---
 
