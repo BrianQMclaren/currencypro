@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CurrencyPro — Results</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>CurrencyPro Converter</h1>
+      <p>Check live foreign currency exchange rates.</p>
+    </header>
+
+    <section aria-labelledby="rate-heading">
+      <h2 id="rate-heading">Exchange rate</h2>
+
+      <!-- "1.00 USD = 0.94 EUR" line -->
+      <p>
+        <span id="base-amount">1.00</span>
+        <span id="base-currency">USD</span>
+        <span aria-hidden="true">=</span>
+        <span id="conversion-rate">0.94614358</span>
+        <span id="target-currency">EUR</span>
+      </p>
+
+      <!-- Optional: human-readable description -->
+      <p id="rate-description">USD to EUR conversion</p>
+
+      <!-- Optional: last updated -->
+      <p>
+        <span>Exchange rate updated</span>
+        <time id="last-updated" datetime="">just now</time>
+      </p>
+    </section>
+  </main>
+  <script type="module" src="/src/results.js"></script>
+</body>
+</html>
