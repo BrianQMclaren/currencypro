@@ -5,7 +5,7 @@
 </p>
 _CurrencyPro – currency selection and conversion flow_
 
-CurrencyPro is a front-end JavaScript project that allows users to view live foreign currency exchange rates by selecting a base currency and a target currency. The app fetches real-time conversion data from the Exchange Rate API and displays the result on a dedicated results page.
+CurrencyPro is a front-end Typescript/JavaScript project that allows users to view live foreign currency exchange rates by selecting a base currency and a target currency. The app fetches real-time conversion data from the Exchange Rate API and displays the result on a dedicated results page.
 
 This project focuses on clean DOM state management, API integration, accessibility, and guided user interaction.
 
@@ -38,6 +38,7 @@ This project was built to practice and reinforce:
 
 ## Tech Stack
 
+- **Typescript**
 - **JavaScript (ES Modules)**
 - **HTML5**
 - **CSS3**
@@ -88,10 +89,9 @@ This project follows the specification from Learn JavaScript Online:
 Features still to be implemented:
 
 1. Finalize and polish CSS layout
-2. Convert the project to **TypeScript**
+2. Improve mobile responsiveness
 3. Add loading and error states
-4. Improve mobile responsiveness
-5. Finalize and deploy
+4. Finalize and deploy
 
 ---
 
